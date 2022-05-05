@@ -8,3 +8,88 @@ header{
     justify-content: space-between;
     padding: 3rem;
 }
+nav{
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+nav a{
+    border-bottom: 3px solid black;
+    background-color: #907e5f;
+    color: black;
+    padding: .75rem;
+}
+div{
+    justify-content: flex-start;
+    padding: 3rem;
+}
+main{
+    position: relative;
+}
+.flag{
+    background-image: url(images/flag.png);
+    background-size: contain;
+    color: aliceblue;
+    max-width: 200%;
+    padding: 2rem 10rem 2rem 7rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.flag2{
+    background-image: url(images/flag2.png);
+    background-size: contain;
+    color: aliceblue;
+    background-repeat: no-repeat;
+    padding: 2rem 10rem 2rem 7rem;
+    background-position: center;
+}
+.last{
+    display: block;
+    margin: auto;
+    padding: 3rem;
+    
+}
+.flag2 div{
+    display: inline-block;
+    width: 49%;
+    padding: 0;
+    vertical-align: text-top;
+}
+.bubble{
+    background-image: url(images/flag2\ \(1\).png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center left 59%;
+    padding: 1rem;
+    background-size: contain;
+}
+.bubble div{
+    padding: 0;
+    width: 45%;
+    margin: auto;
+}
+.frame{
+    background-image: url(images/flag2\ \(2\).png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem;
+    background-size: contain;
+}
+.frame p{
+    width: 45%;
+    margin: auto;
+    font-size: x-large;
+    text-align: center;
+}
+.lastpic{
+    display: block;
+    margin: auto;
+    padding: 3rem;
+    size: 50%;
+    background-image: url(images/flag2\ \(3\).png);
+}
