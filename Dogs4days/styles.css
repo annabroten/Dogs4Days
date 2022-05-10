@@ -92,4 +92,151 @@ main{
     padding: 3rem;
     size: 50%;
     background-image: url(images/flag2\ \(3\).png);
+    background-position: 100px 5px;
+}
+.donate a{
+    background-color:#fdd7ff;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    padding: 1.5rem;
+    display: inline-block;
+}
+.donate{
+    margin: 0rem auto;
+    text-align: center;
+}
+.ways{
+    background-image: url(images/donate.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem 4rem 6rem;
+    background-size: contain;
+    width: 45%;
+    margin: auto;
+    color: white;
+}
+.ways strong{
+    font-weight: bolder;
+    font-size: large;
+}
+.dog{
+    float: right;
+}
+.volunteers a{
+    background-color:#fdd7ff;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    padding: 1.5rem;
+    display: inline-block;
+}
+.volunteers{
+    margin: 0rem auto;
+    text-align: center;
+}
+.helpers{
+    background-image: url(images/volunteers.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem 4rem 6rem;
+    background-size: contain;
+    width: 45%;
+    margin: auto;
+    color: white;
+}
+.helpers strong{
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+}
+.dogg{
+   display: block;
+   margin: auto;
+}
+.dogblogg{
+    text-align: center;
+    padding-right: 2rem;
+}
+.anotherflag{
+    background-image: url(images/blog.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3rem;
+    background-size: contain;
+}
+.blue{
+    font-weight: bold;
+    color: #1a4789;
+    padding-bottom: 0;
+}
+.blue p{
+    position: relative;
+}
+.blue p:after, .blue p:before{
+    content: url(images/L.png);
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    transform: scale(.06);
+}
+.blue p:after{
+    bottom:-2rem ;
+    right: -2rem;
+    transform: scale(.05) rotate(180deg);
+}
+.blue p:before{
+    top: -2.5rem;
+    left: -2.5rem;
+}
+.phone{
+    background-image: url(images/bone.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: .5rem;
+    background-size: contain;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.email{
+    background-image: url(images/bone.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: .5rem;
+    background-size: contain;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.address{
+    background-image: url(images/bone.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: .5rem;
+    background-size: contain;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.phone strong{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+.email strong{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+.address strong{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+.contact{
+    float: right;
 }
