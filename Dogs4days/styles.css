@@ -192,35 +192,19 @@ main{
     top: -2.5rem;
     left: -2.5rem;
 }
-.phone{
+.phone,.email,.address{
     background-image: url(images/bone.png);
     color: white;
     background-repeat: no-repeat;
     background-position: center;
-    padding: .5rem;
+    padding: 2rem;
     background-size: contain;
     font-weight: bolder;
     font-size: xx-large;
-}
-.email{
-    background-image: url(images/bone.png);
-    color: white;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: .5rem;
-    background-size: contain;
-    font-weight: bolder;
-    font-size: xx-large;
+    text-align: center;
 }
 .address{
-    background-image: url(images/bone.png);
-    color: white;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: .5rem;
-    background-size: contain;
-    font-weight: bolder;
-    font-size: xx-large;
+    line-height: 1.2rem;
 }
 .phone strong{
     font-size: x-large;
@@ -233,10 +217,110 @@ main{
     text-align: center;
 }
 .address strong{
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
     text-align: center;
 }
 .contact{
     float: right;
+}
+@media (min-width:700px){
+    .flag{
+        max-width: 250%;
+        padding: 2rem 22rem 2rem 22rem;
+    }
+    .flag2{
+        padding: 2rem 22rem 2rem 22rem;
+    }
+    .doog{
+        display: inline-block;
+    }
+    .bubble{
+        background-position: center left 55%;
+        padding: 8rem;
+
+    }
+    .lastpic{
+        right: .5rem;
+        position:absolute;
+        bottom: 2rem;
+        width: 10%;
+    }
+    .frame{
+        padding: 7rem;
+    }
+    nav a{
+        border-bottom: 5px solid black;
+        background-color: #907e5f;
+        color: black;
+        padding: 1.5rem;
+    }
+    .donate{
+        margin: 2rem auto;
+        text-align: center;
+    }
+    .donate a{
+        padding: 2rem;
+        display: inline-block;
+        width: 60%;
+    }
+    main{
+        position: relative;
+    }
+    .ways{
+        padding: 6rem 12rem 14rem;
+    }
+    .ways strong{
+        font-weight: bolder;
+        font-size: large;
+        font-size: xx-large;
+    }
+    .dog{
+        right: .5rem;
+        position:absolute;
+        bottom: 2rem;
+        width: 10%;
+    }
+    .volunteers{
+        margin: 2rem auto;
+        text-align: center;
+    }
+    .volunteers a{
+        padding: 2rem;
+        display: inline-block;
+        width: 60%;
+    }
+    .helpers{
+        padding: 6rem 12rem 14rem;
+        font-size: large;
+        float: left;
+    }
+    .helpers strong{
+        font-weight: bolder;
+        font-size: large;
+        font-size: xx-large;
+    }
+    .dogg{
+        right: .5rem;
+        position:absolute;
+        bottom: .5rem;
+        width: 30%;
+    }
+    .dogblogg{
+        text-align: center;
+        padding-right: 2rem;
+        display: inline-block;
+        justify-content: space-evenly;
+        width: 35%;
+        height: 35%;
+        position: relative;
+}
+.blue{
+    font-weight: bold;
+    color: #1a4789;
+    padding-bottom: 4rem;
+}
+.blue p{
+    position: relative;
+}
 }
