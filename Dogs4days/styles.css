@@ -303,24 +303,30 @@ main{
     .dogg{
         right: .5rem;
         position:absolute;
-        bottom: .5rem;
-        width: 30%;
+        top: 315%;
+        width: 25%;
     }
     .dogblogg{
         text-align: center;
         padding-right: 2rem;
         display: inline-block;
-        justify-content: space-evenly;
         width: 35%;
         height: 35%;
-        position: relative;
+        display: flex;
+}
+.dogblogg img{
+    width: 70%;
 }
 .blue{
     font-weight: bold;
     color: #1a4789;
     padding-bottom: 4rem;
+    padding-right: 27%;
 }
 .blue p{
     position: relative;
+}
+.anotherflag{
+    padding: 5rem 6rem;
 }
 }
